@@ -281,7 +281,7 @@ export default function FeatureVoter() {
                     : 'bg-white text-black hover:bg-neutral-100'
                 }`}
               >
-                Kirim Saran Skena
+                Kirim Saran Fitur
               </button>
             </form>
           )}

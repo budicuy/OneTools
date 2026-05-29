@@ -31,7 +31,7 @@ export default function Footer() {
           <p className={`text-[10px] max-w-sm font-semibold transition-colors ${
             isLight ? 'text-slate-450' : 'text-white/30'
           }`}>
-            Koleksi alat produktivitas super kilat tanpa iklan, tanpa paywall, & 100% aman untuk kebutuhan sehari-hari anak skena generasi masa kini.
+            Koleksi alat produktivitas super kilat tanpa iklan, tanpa paywall, & 100% aman untuk kebutuhan sehari-hari pekerja produktif dan pelajar masa kini.
           </p>
         </div>
 

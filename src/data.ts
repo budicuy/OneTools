@@ -119,7 +119,7 @@ export const toolsData: ToolFeature[] = [
     badge: '🇮🇩 LOKAL',
     badgeColor: 'bg-red-500/10 text-red-500 border-red-500/20',
     metrics: 'Cuti Bersama & Libur 2026/2027',
-    demoTitle: 'Hacks Cuti & Libur Skena',
+    demoTitle: 'Hacks Cuti & Libur Harian',
     demoPlaceholder: 'Lihat list tanggal merah terdekat & hacks curi cuti terbaik...'
   }
 ];
@@ -164,7 +164,7 @@ export const testimonialData = [
     name: 'Amelia Putri',
     role: 'Content Creator & Designer',
     avatar: 'https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=120&h=120&q=80',
-    comment: 'Desainnya kece bgt, ga ngebosenin kek website tool jadul tahun 2010. Fitur beneran gratis, lancar jaya di resolusi Ultra HD, and support anak skena banget!'
+    comment: 'Desainnya kece bgt, ga ngebosenin kek website tool jadul tahun 2010. Fitur beneran gratis, lancar jaya di resolusi Ultra HD, dan sangat membantu kebutuhan harian!'
   },
   {
     id: 3,

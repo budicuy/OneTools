@@ -147,7 +147,7 @@ export default function TeaserModal({ toolId, isOpen, onClose, toolName, toolDes
     {
       imgUrl: 'https://images.unsplash.com/photo-1554415707-6e8cfc93fe23?auto=format&fit=crop&w=400&q=80',
       title: 'Nota Kedai Kopi',
-      fullText: "SKENA COFFEE ROASTERS\nJl. Senopati No. 42B, Jaksel\n\n1x Iced Americano      Rp 38.000\n1x Avocado Toast       Rp 52.000\nSubtotal               Rp 90.000\nTax 10%                Rp 9.000\nTOTAL                  Rp 99.000\n\nTerima kasih, dilarang ngantuk!"
+      fullText: "WARUNG KOPI NUSANTARA\nJl. Senopati No. 42B, Jaksel\n\n1x Iced Americano      Rp 38.000\n1x Avocado Toast       Rp 52.000\nSubtotal               Rp 90.000\nTax 10%                Rp 9.000\nTOTAL                  Rp 99.000\n\nTerima kasih, dilarang ngantuk!"
     },
     {
       imgUrl: 'https://images.unsplash.com/photo-1542831371-29b0f74f9713?auto=format&fit=crop&w=400&q=80',
@@ -284,7 +284,7 @@ export default function TeaserModal({ toolId, isOpen, onClose, toolName, toolDes
         saved: Math.round(((originalSize - optimizedSize) / originalSize) * 100),
         before: '3.4 MB',
         after: `${(optimizedSize / 1024).toFixed(2)} MB`,
-        filename: 'skena_party_compressed.jpg'
+        filename: 'foto_wisuda_compressed.jpg'
       });
       showToast('Gambar Berhasil Dikompres Tanpa Kurangi Detail! 🎉');
       triggerConfetti();
@@ -391,7 +391,7 @@ export default function TeaserModal({ toolId, isOpen, onClose, toolName, toolDes
             <div className="space-y-4">
               <div className="border border-dashed border-slate-800 bg-slate-950/60 p-6 rounded-2xl text-center flex flex-col items-center justify-center min-h-[140px]">
                 <FileText className="h-8 w-8 text-slate-500 mb-2" />
-                <p className="text-xs font-semibold text-slate-300">File Simulasi: <span className="text-cyan-400">skena_outing_bali.png (3.4 MB)</span></p>
+                <p className="text-xs font-semibold text-slate-300">File Simulasi: <span className="text-cyan-400">dokumentasi_bali.png (3.4 MB)</span></p>
                 <span className="text-[10px] text-slate-500 mt-1">Ready to compress</span>
               </div>
 
@@ -575,7 +575,7 @@ export default function TeaserModal({ toolId, isOpen, onClose, toolName, toolDes
               {/* Upload mock info */}
               <div className="border border-slate-800 p-6 rounded-2xl bg-slate-950/40 text-center text-xs">
                 <p className="font-semibold text-slate-300">File Simulasi Konversi:</p>
-                <p className="text-slate-500 font-mono mt-1">Surat_Lamaran_Magang_Skena.{sourceFormat.toLowerCase()} (1.2 MB)</p>
+                <p className="text-slate-500 font-mono mt-1">Surat_Lamaran_Kerja.{sourceFormat.toLowerCase()} (1.2 MB)</p>
               </div>
 
               {/* Action triggering */}
@@ -606,7 +606,7 @@ export default function TeaserModal({ toolId, isOpen, onClose, toolName, toolDes
                     className="w-full mt-1 bg-slate-950 hover:bg-slate-900 border border-slate-800 p-2.5 rounded-lg font-mono text-xs text-white flex items-center justify-center gap-2 hover:border-emerald-500/30"
                   >
                     <Download className="h-3.5 w-3.5" />
-                    Download Surat_Lamaran_Magang_Skena.{targetFormat.toLowerCase()}
+                    Download Surat_Lamaran_Kerja.{targetFormat.toLowerCase()}
                   </button>
                 </div>
               )}
@@ -877,7 +877,7 @@ export default function TeaserModal({ toolId, isOpen, onClose, toolName, toolDes
           {toolId === 'calendar-id' && (
             <div className="space-y-4">
               <div className="flex items-center justify-between">
-                <div className="font-semibold text-xs text-slate-400">Pilih Hacks Hari Kejepit Skena:</div>
+                <div className="font-semibold text-xs text-slate-400">Pilih Hacks Hari Kejepit Liburan:</div>
                 <div className="flex gap-1.5 font-mono">
                   {['Idul Fitri', 'RI 17 Agst'].map((item, idx) => (
                     <button

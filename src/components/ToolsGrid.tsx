@@ -144,7 +144,7 @@ export default function ToolsGrid({ onSelectTool }: ToolsGridProps) {
             <h2 className={`text-3xl sm:text-5xl font-black tracking-tight mb-4 leading-none transition-colors duration-300 ${
               isLight ? 'text-slate-900' : 'text-white'
             }`}>
-              Jelajahi <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via-pink-500 to-cyan-500">8 Tool Skena</span> Andalan
+              Jelajahi <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via-pink-500 to-cyan-500">8 Tool Unggulan</span> Andalan
             </h2>
             <p className={`max-w-3xl text-xs sm:text-sm leading-relaxed font-semibold transition-colors duration-300 ${
               isLight ? 'text-slate-500' : 'text-white/45'

@@ -89,7 +89,7 @@ export default function ValueProps() {
           <h2 className={`text-3xl sm:text-5xl font-black tracking-tight mb-4 transition-colors duration-300 ${
             isLight ? 'text-slate-900' : 'text-white'
           }`}>
-            Emang Beda Lebih <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via-pink-500 to-cyan-500">Sleek & Bersih</span>
+            Emang Beda Lebih <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via-pink-500 to-cyan-500">Simpel & Bersih</span>
           </h2>
           <p className={`max-w-xl text-xs sm:text-sm mx-auto leading-relaxed font-semibold transition-colors duration-300 ${
             isLight ? 'text-slate-500' : 'text-white/40'
