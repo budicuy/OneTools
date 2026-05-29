@@ -1,0 +1,6 @@
+{
+  "name": "One Tools",
+  "description": "Kumpulan alat produktivitas gratis, super cepat, tanpa iklan, dan berdesain modern ala Gen Z.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
